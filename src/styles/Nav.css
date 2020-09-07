@@ -1,0 +1,29 @@
+#nav-bar {
+    background-color: white;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.inside-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#logo {
+    padding: 0;
+    background-color: white;
+    margin-left: 30px;
+}
+
+#right-nav{
+    margin-right: 30px;
+}
