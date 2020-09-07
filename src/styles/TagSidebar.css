@@ -1,0 +1,8 @@
+#sidebar-hide {
+    display: none;
+}
+
+#sidebar-show {
+    display: initial;
+    min-width: 80px; 
+}

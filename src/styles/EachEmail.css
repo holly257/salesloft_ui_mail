@@ -1,0 +1,39 @@
+.email-list-info{
+    font-size: 9px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.email-list-info>span{
+    display: flex;
+    flex-direction: row;
+}
+
+.email-list-tags{
+    margin-left: 10px;
+}
+
+@media (min-width: 700px) {
+    .email-list-info{
+        font-size: 12px;
+        padding: 3px;
+    }
+
+
+}
+
+@media (min-width: 900px) {
+    .email-list-info{
+        font-size: 16px;
+        flex-direction: row;
+    }
+    
+    .email-subject{
+        width: 400px;
+    }
+
+    .email-list-info>*{
+        padding-left: 20px;
+    }
+}

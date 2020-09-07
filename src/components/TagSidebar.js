@@ -1,12 +1,17 @@
 import React from 'react';
-import '../App.css';
+import '../styles/TagSidebar.css';
 
-function TagSidebar() {
-    return (
-        <section>
-            <p>left bar w/tags</p>
-        </section>
-    );
+class TagSidebar extends React.Component {
+    render() {
+        return (
+            <section id={`${this.props.dropdown ? 'sidebar-hide' : 'sidebar-show'}`}>
+                {this.props.tags.map((tag, index) => {
+                    return <p key={index}>{tag}</p>
+                })}
+                
+            </section>
+        );
+    }
 }
 
 export default TagSidebar;
