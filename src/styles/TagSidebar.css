@@ -4,5 +4,10 @@
 
 #sidebar-show {
     display: initial;
-    min-width: 80px; 
+    min-width: 65px;
+    padding: 7px;
+}
+
+.tag-items:hover {
+    text-decoration: underline #d44638;
 }

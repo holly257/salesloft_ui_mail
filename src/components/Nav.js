@@ -15,14 +15,14 @@ class Nav extends React.Component {
                     <span id="right-nav">
                         <FontAwesomeIcon
                             icon={this.props.dropdown ? faBars : faWindowClose}
-                            id="nav-bars"
+                            className="nav-icon"
                             onClick={() => this.props.updateDropdown()}
                         />
                     </span>
 
-                    <span id="right-nav">search?</span>
+                    <span id="right-nav">INBOX</span>
 
-                    <FontAwesomeIcon icon={faEnvelopeOpen} />
+                    <FontAwesomeIcon icon={faEnvelopeOpen} className="nav-icon" />
                 </div>
             </nav>
         );
