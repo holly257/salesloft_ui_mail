@@ -20,5 +20,6 @@
 
     #sidebar-show {
         width: 110px;
+        min-width: 75px;
     }
 }

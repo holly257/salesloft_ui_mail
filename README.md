@@ -1,6 +1,23 @@
-# SalesLoft UI Exercise
+# Mailbox
 
-## Instructions
+This is the client for my SalesLoft UI exercise - nicknamed mailbox.
+
+## Live App
+
+Deployed App: https://mailbox-five.vercel.app/
+
+## To Run Locally
+
+- clone this repo
+- run 'npm install'
+- use 'npm start' to run locally
+- use 'npm test' to run testing
+
+## Technology Used
+
+HTML, CSS, JavaScript, React
+
+## SalesLoft UI Exercise Instructions
 
 Create a responsive single page app that is based on Gmail's web interface. Make any improvements to the UX that you see fit. This is intended to show your knowledge of Javascript (vanilla JS or any framework of your choice) & CSS/Sass/Less,  while also showing your grasp of UI/UX best practices.
 

@@ -9,6 +9,7 @@
 .email-list-info > span {
     display: flex;
     flex-direction: row;
+    
 }
 
 #email-body > p {
@@ -48,7 +49,7 @@
 
     .email-subject {
         width: 350px;
-        padding-left: 50px;
+        margin: 0 50px;
     }
 
     .email-list-info > * {
