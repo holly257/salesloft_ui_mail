@@ -1,0 +1,1639 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Email list UI as expected 1`] = `
+<div
+  className="main-app"
+>
+  <nav
+    id="nav-bar"
+  >
+    <div
+      className="inside-nav"
+    >
+      <span
+        id="right-nav"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-bars fa-w-14 nav-icon"
+          data-icon="bars"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </span>
+      <span
+        id="right-nav"
+      >
+        INBOX
+      </span>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-envelope-open fa-w-16 nav-icon"
+        data-icon="envelope-open"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M512 464c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V200.724a48 48 0 0 1 18.387-37.776c24.913-19.529 45.501-35.365 164.2-121.511C199.412 29.17 232.797-.347 256 .003c23.198-.354 56.596 29.172 73.413 41.433 118.687 86.137 139.303 101.995 164.2 121.512A48 48 0 0 1 512 200.724V464zm-65.666-196.605c-2.563-3.728-7.7-4.595-11.339-1.907-22.845 16.873-55.462 40.705-105.582 77.079-16.825 12.266-50.21 41.781-73.413 41.43-23.211.344-56.559-29.143-73.413-41.43-50.114-36.37-82.734-60.204-105.582-77.079-3.639-2.688-8.776-1.821-11.339 1.907l-9.072 13.196a7.998 7.998 0 0 0 1.839 10.967c22.887 16.899 55.454 40.69 105.303 76.868 20.274 14.781 56.524 47.813 92.264 47.573 35.724.242 71.961-32.771 92.263-47.573 49.85-36.179 82.418-59.97 105.303-76.868a7.998 7.998 0 0 0 1.839-10.967l-9.071-13.196z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </nav>
+  <main
+    className="App"
+  >
+    <section
+      id="sidebar-hide"
+    >
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="null"
+      >
+        all mail
+      </p>
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="work"
+      >
+        work
+      </p>
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="travel"
+      >
+        travel
+      </p>
+    </section>
+    <section
+      id="email-main"
+    >
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Hello
+          </h2>
+          <span>
+            <h3>
+              10:25pm
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Important information about your account
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Lorem ipsum dolor sit amet
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Your upcoming appointment
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Hello again
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Breaking news!
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            A spam email that got through the filter
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Meeting recap
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Ut lacinia vestibulum eros, a aliquet odio fermentum et
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Your flight confirmation #122345
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+    </section>
+  </main>
+</div>
+`;
+
+exports[`renders the Nav UI as expected 1`] = `
+<div
+  className="main-app"
+>
+  <nav
+    id="nav-bar"
+  >
+    <div
+      className="inside-nav"
+    >
+      <span
+        id="right-nav"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-bars fa-w-14 nav-icon"
+          data-icon="bars"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </span>
+      <span
+        id="right-nav"
+      >
+        INBOX
+      </span>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-envelope-open fa-w-16 nav-icon"
+        data-icon="envelope-open"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M512 464c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V200.724a48 48 0 0 1 18.387-37.776c24.913-19.529 45.501-35.365 164.2-121.511C199.412 29.17 232.797-.347 256 .003c23.198-.354 56.596 29.172 73.413 41.433 118.687 86.137 139.303 101.995 164.2 121.512A48 48 0 0 1 512 200.724V464zm-65.666-196.605c-2.563-3.728-7.7-4.595-11.339-1.907-22.845 16.873-55.462 40.705-105.582 77.079-16.825 12.266-50.21 41.781-73.413 41.43-23.211.344-56.559-29.143-73.413-41.43-50.114-36.37-82.734-60.204-105.582-77.079-3.639-2.688-8.776-1.821-11.339 1.907l-9.072 13.196a7.998 7.998 0 0 0 1.839 10.967c22.887 16.899 55.454 40.69 105.303 76.868 20.274 14.781 56.524 47.813 92.264 47.573 35.724.242 71.961-32.771 92.263-47.573 49.85-36.179 82.418-59.97 105.303-76.868a7.998 7.998 0 0 0 1.839-10.967l-9.071-13.196z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </nav>
+  <main
+    className="App"
+  >
+    <section
+      id="sidebar-hide"
+    >
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="null"
+      >
+        all mail
+      </p>
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="work"
+      >
+        work
+      </p>
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="travel"
+      >
+        travel
+      </p>
+    </section>
+    <section
+      id="email-main"
+    >
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Hello
+          </h2>
+          <span>
+            <h3>
+              10:25pm
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Important information about your account
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Lorem ipsum dolor sit amet
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Your upcoming appointment
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Hello again
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Breaking news!
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            A spam email that got through the filter
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Meeting recap
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Ut lacinia vestibulum eros, a aliquet odio fermentum et
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Your flight confirmation #122345
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+    </section>
+  </main>
+</div>
+`;
+
+exports[`renders the TagSidebar UI as expected 1`] = `
+<div
+  className="main-app"
+>
+  <nav
+    id="nav-bar"
+  >
+    <div
+      className="inside-nav"
+    >
+      <span
+        id="right-nav"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-bars fa-w-14 nav-icon"
+          data-icon="bars"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </span>
+      <span
+        id="right-nav"
+      >
+        INBOX
+      </span>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-envelope-open fa-w-16 nav-icon"
+        data-icon="envelope-open"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M512 464c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V200.724a48 48 0 0 1 18.387-37.776c24.913-19.529 45.501-35.365 164.2-121.511C199.412 29.17 232.797-.347 256 .003c23.198-.354 56.596 29.172 73.413 41.433 118.687 86.137 139.303 101.995 164.2 121.512A48 48 0 0 1 512 200.724V464zm-65.666-196.605c-2.563-3.728-7.7-4.595-11.339-1.907-22.845 16.873-55.462 40.705-105.582 77.079-16.825 12.266-50.21 41.781-73.413 41.43-23.211.344-56.559-29.143-73.413-41.43-50.114-36.37-82.734-60.204-105.582-77.079-3.639-2.688-8.776-1.821-11.339 1.907l-9.072 13.196a7.998 7.998 0 0 0 1.839 10.967c22.887 16.899 55.454 40.69 105.303 76.868 20.274 14.781 56.524 47.813 92.264 47.573 35.724.242 71.961-32.771 92.263-47.573 49.85-36.179 82.418-59.97 105.303-76.868a7.998 7.998 0 0 0 1.839-10.967l-9.071-13.196z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </nav>
+  <main
+    className="App"
+  >
+    <section
+      id="sidebar-hide"
+    >
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="null"
+      >
+        all mail
+      </p>
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="work"
+      >
+        work
+      </p>
+      <p
+        className="tag-items"
+        onClick={[Function]}
+        value="travel"
+      >
+        travel
+      </p>
+    </section>
+    <section
+      id="email-main"
+    >
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Hello
+          </h2>
+          <span>
+            <h3>
+              10:25pm
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Important information about your account
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Lorem ipsum dolor sit amet
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Your upcoming appointment
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Hello again
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Breaking news!
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            A spam email that got through the filter
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Meeting recap
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Ut lacinia vestibulum eros, a aliquet odio fermentum et
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+      <section
+        id="email-list"
+      >
+        <div
+          className="email-list-info"
+        >
+          <h1>
+            bob.smith@gmail.com
+          </h1>
+          <h2
+            className="email-subject"
+          >
+            Your flight confirmation #122345
+          </h2>
+          <span>
+            <h3>
+              5:25am
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              travel
+               
+            </h3>
+            <h3
+              className="email-list-tags"
+            >
+              work
+               
+            </h3>
+          </span>
+        </div>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-plus fa-w-14 icon"
+          data-icon="plus"
+          data-prefix="fas"
+          focusable="false"
+          onClick={[Function]}
+          role="img"
+          style={Object {}}
+          viewBox="0 0 448 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        
+      </section>
+    </section>
+  </main>
+</div>
+`;

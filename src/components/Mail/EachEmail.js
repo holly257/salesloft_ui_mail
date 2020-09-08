@@ -17,7 +17,7 @@ class EachEmail extends React.Component {
 
     render() {
         return (
-            <section>
+            <section id="email-list">
                 <div className="email-list-info">
                     <h1>{this.props.sender}</h1>
                     <h2 className="email-subject">{this.props.subject}</h2>
