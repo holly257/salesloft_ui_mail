@@ -17,26 +17,33 @@ class EachEmail extends React.Component {
 
     render() {
         return (
-            <div className="email-list-info">
-                <h1>{this.props.sender}</h1>
-                <h2 className="email-subject">{this.props.subject}</h2>
-                <span>
-                    <h3>{moment(this.props.date).format('h:mma')}</h3>
-                    {this.props.tags.map((tag, index) => {
-                        return (
-                            <h3 className="email-list-tags" key={index}>
-                                {tag}{' '}
-                            </h3>
-                        );
-                    })}
-                </span>
-                {this.state.hideContent ? '' : this.props.body.slice(3, -4)}
+            <section>
+                <div className="email-list-info">
+                    <h1>{this.props.sender}</h1>
+                    <h2 className="email-subject">{this.props.subject}</h2>
+                    <span>
+                        <h3>{moment(this.props.date).format('h:mma')}</h3>
+                        {this.props.tags.map((tag, index) => {
+                            return (
+                                <h3 className="email-list-tags" key={index}>
+                                    {tag}{' '}
+                                </h3>
+                            );
+                        })}
+                    </span>
+                </div>
                 <FontAwesomeIcon
                     icon={this.state.hideContent ? faPlus : faMinus}
                     className="icon"
                     onClick={() => this.showMore()}
                 />
-            </div>
+                {/* I would make sure to check that xss attacks were protected on the server if I had to render HTML this way */}
+                {this.state.hideContent ? (
+                    ''
+                ) : (
+                    <div id="email-body" dangerouslySetInnerHTML={{ __html: this.props.body }} />
+                )}
+            </section>
         );
     }
 }

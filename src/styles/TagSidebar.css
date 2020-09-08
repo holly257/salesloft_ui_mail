@@ -6,8 +6,19 @@
     display: initial;
     min-width: 65px;
     padding: 7px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 .tag-items:hover {
     text-decoration: underline #d44638;
+}
+
+@media (min-width: 700px) {
+    .tag-items {
+        font-size: 25px;
+    }
+
+    #sidebar-show {
+        width: 110px;
+    }
 }

@@ -6,9 +6,9 @@ class TagSidebar extends React.Component {
         updateMail: () => {},
     };
 
-    setFilter = (e) => {
-       this.props.updateMail(e)
-    }
+    setFilter = e => {
+        this.props.updateMail(e);
+    };
 
     render() {
         return (

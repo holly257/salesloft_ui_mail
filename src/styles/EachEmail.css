@@ -1,8 +1,9 @@
 .email-list-info {
-    font-size: 9px;
+    font-size: 10px;
     display: flex;
     flex-direction: column;
     margin: 8px 0;
+    border-top: solid 1px #eeeeee;
 }
 
 .email-list-info > span {
@@ -10,18 +11,32 @@
     flex-direction: row;
 }
 
+#email-body > p {
+    font-size: 14px;
+    margin: 8px;
+}
+
 .email-list-tags {
     margin-left: 10px;
 }
 
-.icon{
-    color: #D44638;
+.icon {
+    color: #d44638;
+    padding-left: 10px;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: initial;
 }
 
 @media (min-width: 700px) {
     .email-list-info {
-        font-size: 12px;
+        font-size: 14px;
         padding: 3px;
+    }
+
+    .email-list-info > div > p {
+        font-size: 18px;
     }
 }
 
@@ -32,10 +47,20 @@
     }
 
     .email-subject {
-        width: 400px;
+        width: 350px;
+        padding-left: 50px;
     }
 
     .email-list-info > * {
         padding-left: 20px;
+    }
+
+    #email-body > p {
+        font-size: 20px;
+        margin: 20px 55px;
+    }
+
+    .icon {
+        padding-left: 30px;
     }
 }

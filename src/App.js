@@ -31,33 +31,35 @@ class App extends React.Component {
         });
     }
 
-    filterMail = (value) => {
-        this.setState({
-            mailFilter: value,
-        }, () => {
-            this.setMail();
-        })
-        
-    }
+    filterMail = value => {
+        this.setState(
+            {
+                mailFilter: value,
+            },
+            () => {
+                this.setMail();
+            }
+        );
+    };
 
     setMail = () => {
-        let mailArr = []
-        console.log(this.state.mailFilter)
-        if(this.state.mailFilter !== null){
+        let mailArr = [];
+        if (this.state.mailFilter !== null) {
             emails.messages.map(email => {
-                if(email.tags.includes(this.state.mailFilter)){
-                    mailArr.push(email)
+                if (email.tags.includes(this.state.mailFilter)) {
+                    mailArr.push(email);
                     this.setState({
                         mailList: mailArr,
                     });
                 }
-            })
+                return mailArr;
+            });
         } else {
             this.setState({
                 mailList: emails.messages,
             });
         }
-    }
+    };
 
     toggleDropdown = () => {
         this.setState(prevState => ({
@@ -67,14 +69,18 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="App">
+            <div className="main-app">
                 <Nav
                     updateDropdown={() => this.toggleDropdown()}
                     dropdown={this.state.hiddenDropdown}
                 />
-                <main>
-                    <TagSidebar updateMail={(e) => this.filterMail(e)} dropdown={this.state.hiddenDropdown} tags={this.state.tagList} />
-                    <MailList mail={() => this.mailFilter()} myMail={this.state.mailList}/>
+                <main className="App">
+                    <TagSidebar
+                        updateMail={e => this.filterMail(e)}
+                        dropdown={this.state.hiddenDropdown}
+                        tags={this.state.tagList}
+                    />
+                    <MailList mail={() => this.mailFilter()} myMail={this.state.mailList} />
                 </main>
             </div>
         );
